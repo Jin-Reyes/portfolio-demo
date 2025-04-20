@@ -1,0 +1,198 @@
+* {text-decoration: none; margin: 0; padding: 0; }
+
+ body {
+    overflow-x: hidden;
+
+    background: linear-gradient(45deg,#ffb374, #e560dc, #4158, #ef5f5f, #d840b6) no-repeat;
+    animation: bg 12s ease infinite;
+    
+} 
+@keyframes bg {
+    0%{
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+nav{grid-area: navbar; padding:1em; 
+    background-color:burlywood; 
+    padding-right: 15px; padding-left:16px; 
+    display: inline-block;
+    height: 5vh;
+    top: 0; 
+    position: sticky;
+    box-shadow: 3px 3px 5px rgba(0,0,0, 0.2);
+}
+.navdiv {
+    display:flex; 
+    height: 5vh;
+    align-items: center; 
+    margin-top: 0;
+    padding: 0 15px 0 50vh;
+    justify-content:space-between;
+    text-align: center;
+    width: 100vw;
+    
+}
+nav a:hover {
+    background-color: #f0f0f0;
+}
+main { 
+    grid-area: main;
+}
+footer {grid-area: footer; padding:2em; background-color: black;
+    height: 10vh;
+}
+.h1 {
+    padding-top: 57px; 
+    text-align: center;
+    display: none;
+
+}
+
+.SCC {
+    margin: 5vh  266px 0 266px;
+    display: block;
+    height: 25vh;
+    width: 100vh;
+    margin: 0 360px 20px 360px;
+    align-self: auto;
+    justify-content: center;
+}
+.me {
+    justify-content: left;
+    width: 27vh;
+    padding: 27px;
+    float: left;
+    border-radius:50px;
+    image-rendering:crisp-edges ;
+
+}
+li {
+    list-style: none;
+    display: inline-flex;
+    margin: 15px;   
+    
+}
+li a {color:black; 
+    text-transform: uppercase;
+    font-size:20px; 
+    margin-right: 10px;
+    align-items: center;
+}
+ul {
+    align-items: center;
+}
+.intro {
+    display:"";
+    padding: 20px ; 
+    margin: 0;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    
+
+}
+#uno {
+    display: flex;
+    background-color:#f86f609a;                           /*FOR OTHER BG {255, 255, 255, 0.486}*/
+    align-items: center;
+    justify-content: left;
+    margin: 100px 1000px 0px 250px;
+    width: 70%;
+    left: 15px;
+    padding: 0;
+}
+/*ABOUT ME CODING */
+
+/*scope*/
+/*SKILLS CODING*/
+.container-skills {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(238, 118, 118, 0.13);
+}
+.container-skills .progress-container {
+    margin-bottom: 25px;
+}
+.container-skills .progress-container h4 {
+    margin: 0 0 15px 15px;
+    letter-spacing: .5px;
+
+}
+.container-skills .progress-container .progress-bar {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 4px 3px 0px rgba(0, 0, 95, 0.548); 
+}
+.container-skills .progress-container .progress-bar .html{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: "";
+    font-size: "";
+    line-height: "";
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(45deg, rgba(148, 12, 12, 0.788) 50%, rgba(163, 67, 67, 0.747) 100%);
+
+}
+.container-skills .progress-container .progress-bar .css {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: "";
+    font-size: "";
+    line-height: "";
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(45deg, rgba(148, 12, 12, 0.788) 50%, rgba(163, 67, 67, 0.747) 100%);
+}
+.container-skills .progress-container .progress-bar .js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: "";
+    font-size: "";
+    line-height: "";
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(45deg, rgba(148, 12, 12, 0.788) 50%, rgba(163, 67, 67, 0.747) 100%);
+}
+/*scope*/
+
+
+
+
+
+
+section {
+    height: 105vh; 
+    
+}
+.p-contact {size: 10px;}
+.contact {text-align: center;
+    align-items: center;}
+
+ a:active {
+    transition:ease 2s;
+}
